@@ -1,6 +1,6 @@
 ### Developing the project
 
-JDK: 11+
+JDK: 19+
 
 Spring Boot: 2.7.1
 
