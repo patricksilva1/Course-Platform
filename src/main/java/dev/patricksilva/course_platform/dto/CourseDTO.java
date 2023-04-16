@@ -5,8 +5,8 @@ public class CourseDTO {
 	private String courseName;
 	private String courseDuration;
 	private String courseDescription;
-	private InstructorDTO instructor;
-
+	 private InstructorDTO instructor;
+	 
 	public Long getCourseId() {
 		return courseId;
 	}
@@ -39,12 +39,12 @@ public class CourseDTO {
 		this.courseDescription = courseDescription;
 	}
 
-	public InstructorDTO getInstructorDTO() {
-		return instructor;
-	}
+    public InstructorDTO getInstructor() {
+        return instructor;
+    }
 
-	public void setInstructor(InstructorDTO instructor) {
-		this.instructor = instructor;
-	}
+    public void setInstructor(InstructorDTO instructor) {
+        this.instructor = instructor;
+    }
 
 }
